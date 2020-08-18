@@ -8,6 +8,7 @@ var level = 0;
 $(".btn1").click(function(event) {
 
   if (!started) {
+    $(".btn1").hide();
     $(
       "#level-title"
     ).text("level " + level);
@@ -33,6 +34,7 @@ $(".btn").click(function() {
 });
 
 function startOver() {
+
   level = 0;
   gamePattern = [];
   started = false;
@@ -61,6 +63,7 @@ function checkAnswer(currentLevel) {
     setTimeout(function() {
       playSound("wrong1");
     }, 500);
+    $(".btn1").show().text("Restart");
     startOver();
   }
 }
