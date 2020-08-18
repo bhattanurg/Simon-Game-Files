@@ -57,9 +57,9 @@ h2{
 footer{
   color: #FEF2BF;
 }
-@media (max-width:1028px){
+/* @media (max-width:1028px){
 .btn{
   height: 100px;
   width: 100px;
-}
+} */
 }
