@@ -18,7 +18,7 @@ $(document).keydown(function(event) {
 
     setTimeout(function() {
       nextSequence();
-    }, 7000);
+    }, 7500);
     started = true;
   }
 });
