@@ -5,7 +5,7 @@ var started = false;
 var level = 0;
 
 
-$(document).keydown(function(event) {
+$(".btn1").click(function(event) {
 
   if (!started) {
     $(

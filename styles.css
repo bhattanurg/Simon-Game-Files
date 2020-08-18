@@ -28,6 +28,19 @@ h2{
   border: 10px solid black;
   border-radius: 20%;
 }
+.btn1{
+  margin: 25px;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  
+  border-radius: 15%;
+  text-align: center;
+  color: #FEF2BF;
+  font-size: 2rem;
+  padding-top: 5px;
+  background-color: black;
+}
 
 .game-over {
   background-color: red;
