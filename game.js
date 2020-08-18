@@ -58,7 +58,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
 
     }, 200);
-    $("h1").text("Game Over,Pess Any Key to Restart");
+    $("h1").text("Game Over,Pess Restart");
 
     setTimeout(function() {
       playSound("wrong1");
